@@ -1,0 +1,116 @@
+html,body {
+	background-color: #E9F7EC;
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+input {
+	margin-top: 6px;
+}
+
+a {
+	color: #555;
+}
+
+a:hover, a:active {
+	color: #AAA;
+}
+
+a:visited {
+	color: #333;
+}
+
+div.game-table {
+    min-width: 500px;
+}
+
+table {
+	table-layout: fixed;
+}
+
+td {
+	position: relative;
+	width: 20%;
+	height: 150px;
+	padding: 0px 0px;
+	border: 1px solid #DDD;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 1.1em;
+	text-align: center;
+	cursor: pointer;
+}
+
+td:hover {
+	background-color: #F6F6F4;
+}
+
+span.glyphicon-remove {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	color: #BB3E3E;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 70px;
+	-webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+span.glyphicon-remove.done {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+span.text {
+	display: block;
+	padding: 0px 8px;
+    font-size: 16px;
+}
+
+button#copyToClipboard {
+	height: 34px;
+}
+
+.margin-top {
+	margin-top: 12px;
+}
+
+.align-top {
+	vertical-align: top;
+	top: 0px;
+}
+
+.double-line {
+	height: 4.2em;
+}
+
+.short {
+	display: inline-block;
+	width: 300px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 56px;
+	font-size: .8em;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}

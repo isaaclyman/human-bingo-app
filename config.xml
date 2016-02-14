@@ -3,6 +3,7 @@
   <description>A live-action game for people bored at airport terminals.</description>
   <author href="http://isaaclyman.com" email="humanbingo@isaaclyman.com">Isaac Lyman</author>
   <content src="index.html"/>
+  <preference name="EnableViewportScale" value="true"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="portrait"/>
   <preference name="target-device" value="universal"/>
